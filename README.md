@@ -20,6 +20,6 @@ clearly , it can be observed from the scatter plot that TV has a very strong pos
 However , sales and other advertisment mediums like radio and newspaper seems to have a very weak relationship from the scatterplot.\
 To be really certain of these relationships , we plot the correlation matrix to help us determine these relationships.
 
-
+![reg2](https://user-images.githubusercontent.com/68768460/93653879-5ae81e80-fa0a-11ea-934a-83f892a1ba1e.png)
    
 
