@@ -12,6 +12,10 @@ it was realized that the dataset has already been cleaned, meaning there will be
 
 ### Data Exploration 
 To fully understand the relationship between the target value(sales) and the features, we used visual exploration to achieve this goal.
+We started by creating a scatter plot to show the relationship between sales and the other columns as shown below.
+
+![reg1](https://user-images.githubusercontent.com/68768460/93653375-2d9a7100-fa08-11ea-84c8-9a9c3bf01ea8.png)
+
 
 
 
