@@ -6,7 +6,7 @@ In order to gain more insight into the dataset and also to determine the relatio
 The following insights were drawn from the dataset:
 * The dataset is made up of 200 rows and 4 columns(TV, radio, newspaper and sales)
 * all the columns are numeric
-* The features are TV, radio, newspaper and the target column in sales
+* The features are TV, radio, newspaper and the target column is sales.
 * there are no missing values in the dataset.\
 it was realized that the dataset has already been cleaned, meaning there will be no need in cleaning the dataset again.
 
@@ -16,8 +16,9 @@ We started by creating a scatter plot to show the relationship between sales and
 
 ![reg1](https://user-images.githubusercontent.com/68768460/93653375-2d9a7100-fa08-11ea-84c8-9a9c3bf01ea8.png)
 
-
-
+clearly , it can be observed from the scatter plot that TV has a very strong positive relationship with sales. This means that, the more the company advertises through the TV media, the company will generate higher sales.
+However , sales and other advertisment mediums like radio and newspaper seems to have a very weak relationship from the scatterplot.\
+To be really certain of these relationships , we plot the correlation matrix to help us determine these relationships.
 
 
    
