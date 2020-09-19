@@ -44,4 +44,13 @@ Since there exists some level of unexplained error, we interacted the radio valu
 
 This increased the accuracy of the model. Thus, the Root mean squared error increased to 1.25040 and the coefficient of determination(R^2) increased to 0.94243. This actually implies that there exist some level of interaction(dependency) between radio and TV.
 The graph below shows the results:
+![reg5](https://user-images.githubusercontent.com/68768460/93655291-fe88fd00-fa11-11ea-8c9b-ea43b46b3552.png)
+
+
+We had the new coefficient of TV to be 0.018502548 ,radio to be 0.019409, the interaction to be  0.0011279786 and the  intercept to be 6.8888787. That is, we can write sales as a function of TV, radio, and interaction.\
+that is mathematically,  sales=0.018502548*TV + 0.019409*radio+0.0011279786*TV*radio + 6.8888787
+
+The firm can then use the new model generated to predict new levels of sales when given the feature values in the future since it gives high levels of accuracy as compared to the initial one.
+
+
 
