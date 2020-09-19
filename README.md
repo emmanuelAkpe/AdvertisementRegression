@@ -34,8 +34,10 @@ We then checked the accuracy of our model using metrics such as Root mean square
 We had the root mean squared error to be 1.6498 and the coefficient of determination to be 0.8656. These metrics indicated a very high accuracy of our model even though there exist some level of error. The graph below shows the prediction error for the model.
 
 ![reg3](https://user-images.githubusercontent.com/68768460/93654773-db108300-fa0e-11ea-8d9a-c7e332669a48.png)
-We had the coefficient of TV to 0.047177 and that of radio to be 0.186530 and the intercept to be 2.7832611. That is, we can write sales as a function of TV and radio.\
+We had the coefficient of TV to be 0.047177 and that of radio to be 0.186530 and the intercept to be 2.7832611. That is, we can write sales as a function of TV and radio.\
 that is mathematically,  sales=0.047177*TV + 0.186530*radio + 2.7832611
 
-The graph below shows the residual graph for the model
+The graph below shows the residual graph for the model:
+![reg4](https://user-images.githubusercontent.com/68768460/93654983-4575f300-fa10-11ea-95b4-80c00b40a620.png)
+
 
