@@ -40,4 +40,8 @@ that is mathematically,  sales=0.047177*TV + 0.186530*radio + 2.7832611
 The graph below shows the residual graph for the model:
 ![reg4](https://user-images.githubusercontent.com/68768460/93654983-4575f300-fa10-11ea-95b4-80c00b40a620.png)
 
+Since there exists some level of unexplained error, we interacted the radio values with that of TV in order to check whether there exists some level of dependency between them.\
+
+This increased the accuracy of the model. Thus, the Root mean squared error increased to 1.25040 and the coefficient of determination(R^2) increased to 0.94243. This actually implies that there exist some level of interaction(dependency) between radio and TV.
+The graph below shows the results:
 
