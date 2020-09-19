@@ -23,7 +23,14 @@ To be really certain of these relationships , we plot the correlation matrix to 
 ![reg2](https://user-images.githubusercontent.com/68768460/93653879-5ae81e80-fa0a-11ea-934a-83f892a1ba1e.png)
 The legend tells that the warmer colours show higher and positive correlation whiles the colder colours show low or negative correlation.   
 it can be observed from the correlation matrix above that the correlation between sales and TV is 0.78 which indicates a very strong postive correlation between sales revenue and TV.\
-Also, the correlation between sales and radio is 0.58 which indicates a mild postive correlation between sales and radio advertisement. This means that, an increse in radio advertisment will increase sales in small proportion.
+Also, the correlation between sales and radio is 0.58 which indicates a mild postive correlation between sales and radio advertisement. This means that, an increse in radio advertisment will increase sales in small proportion.\
 Finally, the correlation between sales and newspaper is 0.23 which is a very weak positive correlation between sales and newspaper advertisment. 
+
+### Model Building
+We started by selecting our feature values and the target value. Since newspaper has a very weak correlation with sales(the target value), we excluded it from our model building. That is, we selected only radio and TV as our features for building the model.\
+\
+We then splitted the features and the target value into train and test set. The train sets are the data we will use in training our model whereas the test set are the data we will use in testing for the validity of our model. We splitted the dataset into 70%(140 rows) train set and 30% test set(60 rows).\
+We then checked the accuracy of our model using metrics such as Root mean squared error and Coefficient of determination.\
+We had the root mean squared error to be 1.6498 and the coefficient of determination to be 0.8656. These metrics indicated a very high accuracy of our model even though there exist some level of error. The graph below shows the prediction error for the model.
 
 
