@@ -21,6 +21,7 @@ However , sales and other advertisment mediums like radio and newspaper seems to
 To be really certain of these relationships , we plot the correlation matrix to help us determine these relationships.
 
 ![reg2](https://user-images.githubusercontent.com/68768460/93653879-5ae81e80-fa0a-11ea-934a-83f892a1ba1e.png)
+
 The legend tells that the warmer colours show higher and positive correlation whiles the colder colours show low or negative correlation.   
 it can be observed from the correlation matrix above that the correlation between sales and TV is 0.78 which indicates a very strong postive correlation between sales revenue and TV.\
 Also, the correlation between sales and radio is 0.58 which indicates a mild postive correlation between sales and radio advertisement. This means that, an increse in radio advertisment will increase sales in small proportion.\
